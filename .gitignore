@@ -1,0 +1,10 @@
+# arquivos compilados
+*.exe
+*.o
+*.out
+
+# arquivos temporários
+*.tmp
+*.log
+*.swp
+tempCodeRunnerFile.*
