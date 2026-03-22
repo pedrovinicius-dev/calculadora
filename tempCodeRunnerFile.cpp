@@ -9,7 +9,7 @@ char i;
     cin >> b;
 
     if(cin.fail()){
-        cout << "valor invalido";
+        cout << "digite um valor valido";
         return 0;}
 
     cout << "digite a operacao\n + \n - \n * \n / \n";
@@ -17,21 +17,19 @@ char i;
 switch(i){
 
     case '+':
-    cout << "o resultado: " << a + b;break;
+    cout << "o resultado e: " << a + b;break;
 
     case '-':
-    cout << "o resultado: " << a - b;break;
+    cout << "o resultado e: " << a - b;break;
 
     case '*':
-    cout << "o resultado: " << a * b;break;
+    cout << "o resultado e: " << a * b;break;
 
     case '/':
-    if(b == 0){
-        cout << "erro:divisao por zero";}
-    else{
-    cout << "resultado: " << a / b;}break;
+    cout << "o resultado e: " << a / b;break;
 
     default:
-    cout << "operacao invalida";break;}
+    cout << "digite um valor valido";break;
+    break;}
     return 0;
 }
